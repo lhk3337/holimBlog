@@ -8,7 +8,7 @@ export default function Footer() {
       <div className="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
         <Link href="/">
           <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
-            <Image src={favicon} width={40} height={40} className="rounded-md" alt="logo" />
+            <Image src={favicon} width={30} height={30} className="rounded-full" alt="logo" />
             <span className="ml-3 text-xl">holim log</span>
           </a>
         </Link>
