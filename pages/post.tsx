@@ -3,6 +3,8 @@ import { getData } from "api/api";
 import PostItem from "components/PostItem";
 import { IProjectDataType, IProjectsDataType } from "api/apiType";
 export default function Post({ posts }: IProjectsDataType) {
+  // const aaa = posts.results.filter((value: any) => value.properties.category.select?.name === "Javascript");
+
   return (
     <Layout>
       <div className="flex flex-col items-center justify-center min-h-screen p-5 mb-10">
