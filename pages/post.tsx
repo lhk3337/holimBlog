@@ -1,6 +1,6 @@
 import Layout from "components/layout";
 import { getData } from "api/api";
-import PostItem from "components/PostItem";
+import PostItem from "components/Posts/PostItem";
 import { IProjectDataType, IProjectsDataType } from "api/apiType";
 export default function Post({ posts }: IProjectsDataType) {
   // const aaa = posts.results.filter((value: any) => value.properties.category.select?.name === "Javascript");
