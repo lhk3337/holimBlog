@@ -1,7 +1,7 @@
 import { IProjectDataType, Itag, Iicon } from "api/apiType";
 import Image from "next/image";
 
-export default function Icons(icon: Iicon) {
+export default function PostImages(icon: Iicon) {
   if (icon.type === "file") {
     const { url } = icon.file;
     return <Image src={url} width={30} height={30} alt="icon" />;
