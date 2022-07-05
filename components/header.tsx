@@ -15,10 +15,10 @@ export default function Header() {
         </Link>
         <nav className="md:ml-auto md:mr-10 flex flex-wrap items-center text-base justify-center">
           <Link href="/">
-            <a className="mr-20 text-2xl hover:text-gray-900">Home</a>
+            <a className="mr-10 text-xl hover:text-gray-700">Home</a>
           </Link>
           <Link href="/post">
-            <a className="mr-5  text-2xl hover:text-gray-900">Post</a>
+            <a className="mr-5  text-xl hover:text-gray-700">Post</a>
           </Link>
         </nav>
         <button className="ml-10 inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">
