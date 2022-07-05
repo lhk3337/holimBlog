@@ -9,8 +9,8 @@ export default function Header() {
       <div className="container mx-auto flex flex-wrap p-8 flex-col md:flex-row items-center">
         <Link href="/">
           <a className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
-            <Image src={favicon} width={50} height={50} className="rounded-sm" alt="logo" />
-            <span className="ml-5 text-xl">holim log</span>
+            <Image src={favicon} width={28} height={28} alt="logo" />
+            <span className="ml-3 text-xl">holim log</span>
           </a>
         </Link>
         <nav className="md:ml-auto md:mr-10 flex flex-wrap items-center text-base justify-center">
