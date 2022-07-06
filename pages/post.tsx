@@ -7,7 +7,7 @@ export default function Post({ posts }: IProjectsDataType) {
 
   return (
     <Layout>
-      <div className="flex flex-col items-center justify-center min-h-screen p-5 mb-10">
+      <div className="flex flex-col items-center justify-center p-5 mb-10">
         <div className="grid grid-cols-1 md:grid-cols-2 2xl:grid-cols-5 xl:grid-cols-4 lg:grid-cols-3 w-full py-6">
           {posts.results.map((post: IProjectDataType) => (
             <PostItem key={post.id} {...post} />
