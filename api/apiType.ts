@@ -19,6 +19,7 @@ export interface IProjectDataType {
     이름: { title: ITitle[] };
     태그: { multi_select: Itag[] };
   };
+  url: string;
   icon: Iicon;
 }
 
